@@ -12,4 +12,12 @@ Parametro `NextShardIterator` evita que a shard retorne valores já coletados
 O Firehose da uma alternativa para persistir os dados gerados, ja que depois de 24 horas, por padrão, tudo enviado pelo `Kinesis Stream` é deletado. Usando essa ferramenta com com o um `bucket S3` é possivel fazer a coleta e armazenamento permanente dos dados. Para isso, não é necessario nenhuma linha de programação. Apenas um bucket, a stream e um fluxo de entrega do `Firehose`. O arquivo é salvo a cada X segundos sendo no minimo 60 e maximo 900.
 O arquivo gerado pelo `Firehose` está neste repositório com o nome `KDS-S3-XsajF-1-2022-11-25-19-43-17-a306cd33-d262-48c2-993e-e1bf89ef5038.json`. O arquivo foi formatado em `json` para facilitar a leitura e gerado num bucket com estrutura `YYYY/MM/DD`
 
+## Variáveis de Ambiente
+
+
+
+`AWS_ACCESS_KEY`
+
+`AWS_ACCESS_SECRET_KEY`
+
 
