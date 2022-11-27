@@ -3,7 +3,7 @@
 Este é um projeto de estudo usando o serviço `AWS KINESIS STREAM` e `Kineses Firehose`. O arquivo producer.ipynb simula a criação de dados em `json` com a API randomuser e campos gerados aleatoriamente. E o consumer.ipynb simula um consumidor desses dados.
 
 # Breve explicação sobre o Kinesis
-Uma stream é dividida em varios fragmentos, as shards. Essa divisão facilita tanto na hora do processamento quanto na aquisição dos dados visto que os dados vão estar paticionados em várias partes. Mas, para facilitar o gerenciamento das shard pode-se usar as keys, elas fazem com que um dado com uma key X sempre aponte para uma shard X. Nesse projeto usei com key = 2.
+Uma stream é dividida em varios fragmentos, as shards. Essa divisão facilita tanto na hora do processamento quanto na aquisição dos dados visto que os dados vão estar paticionados em várias partes. Mas, para facilitar o gerenciamento das shardn pode-se usar as keys. Elas fazem com que um dado com uma key X sempre aponte para uma shard X. Nesse projeto usei com key = 2.
 
 `ShardIteratorType` é usado para configurar a forma de como os dados nas shards vão ser lidos. No projeto usei LATEST. Pois, só era interessante os dados mais novos.
 
