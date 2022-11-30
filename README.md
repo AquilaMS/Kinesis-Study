@@ -20,4 +20,5 @@ O arquivo gerado pelo `Firehose` está neste repositório com o nome `KDS-S3-Xsa
 
 `AWS_ACCESS_SECRET_KEY`
 
+`AWS_STREAM_NAME`
 
