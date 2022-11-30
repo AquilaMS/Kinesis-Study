@@ -4,7 +4,7 @@ services:
       - AWS_ACCESS_KEY=${AWS_ACCESS_KEY}
       - AWS_ACCESS_SECRET_KEY=${AWS_ACCESS_SECRET_KEY}
       - AWS_STREAM_NAME=${AWS_STREAM_NAME}
-    image: kinesis_socker_study
+    image: kinesis_docker_study
     build:
-      context: .
+      context: . 
       dockerfile: Dockerfile
