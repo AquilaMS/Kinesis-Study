@@ -4,6 +4,6 @@ stored_data = []
 
 while True:
     print(get_data())
-    time.sleep(0.5)
+    time.sleep(1)
 
 
