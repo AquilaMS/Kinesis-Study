@@ -1,5 +1,4 @@
 # Kineses Study
-obs: Ao testar se atente ao While: True no producer.py para não deixa-lo executando no Docker
 
 Este é um projeto de estudo usando o serviço `AWS KINESIS STREAM` e `Kineses Firehose`. O arquivo producer.ipynb simula a criação de dados em `json` com a API randomuser e campos gerados aleatoriamente. E o consumer.ipynb simula um consumidor desses dados.
 
